@@ -1,0 +1,68 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="98083629" file="G:\Mi unidad\Colaboración Aeroespacial\Matlab\csv_reader.prj" location="G:\Mi unidad\Colaboración Aeroespacial\Matlab" name="csv_reader" target="target.mlapps" target-name="Package App">
+    <param.appname>csv_reader</param.appname>
+    <param.authnamewatermark>Mario Álvarez Redondo</param.authnamewatermark>
+    <param.email>marioar14@gmail.com</param.email>
+    <param.company>Universidad de León</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Cargar datos</param.summary>
+    <param.description />
+    <param.screenshot>${PROJECT_ROOT}\ZX300.jpg</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>34fc34e2-4cbb-4671-8303-8b792acd09ac</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\csv_reader.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Escudo-Escuela-Leon_logo.png</file>
+      <file>${PROJECT_ROOT}\unileon.png</file>
+      <file>${PROJECT_ROOT}\ventana_emergente.mlapp</file>
+      <file>${PROJECT_ROOT}\ZX300.jpg</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="G:\Mi unidad\Colaboración Aeroespacial" name="Matlab" optional="false">G:\Mi unidad\Colaboración Aeroespacial\Matlab</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
